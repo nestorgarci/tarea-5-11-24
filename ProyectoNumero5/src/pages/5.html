@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <link rel="stylesheet" href="C:\Users\HP\Desktop\ProyectoNumero5\src\styles\5.css">
+</head>
+<body>
+
+    <!-- Encabezado con el nombre -->
+    <header>
+        <h1>Nestor Luis Garcia Jacome</h1>
+    </header>
+
+    <!-- Sección de Biografía -->
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Soy Néstor Luis García Jácome, tengo 22 años y soy originario de El Guamo, Bolívar. Actualmente, resido en Barranquilla y estoy cursando estudios en la Universidad Libre de Barranquilla. Me gradué en la Institución Educativa Técnica Agropecuaria de El Guamo, donde desarrolló un profundo interés por la tecnología y la programación. Como ingeniero de sistemas, tengo experiencia en desarrollo de software, programación y diseño de páginas web, habilidades que busco perfeccionar y aplicar en proyectos que generen un impacto positivo.</p>
+    </section>
+
+    <!-- Sección de Habilidades Técnicas -->
+    <section id="habilidades">
+        <h2>Habilidades Técnicas</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Software</li>
+            <li>Diseño</li>
+            <!-- Añade más habilidades según prefieras -->
+        </ul>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form onsubmit="return validarFormulario()">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página con datos de contacto -->
+    <footer>
+        <p>Contacto: nestorjaco12@mail.com | Teléfono: +57 302-450-7579</p>
+        <button onclick="mostrarBienvenida()">¡Dame la bienvenida!</button>
+    </footer>
+
+    <script src="C:\Users\HP\Desktop\ProyectoNumero5\src\scripts\5.js"></script>
+</body>
+</html>
