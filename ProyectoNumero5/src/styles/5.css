@@ -23,6 +23,15 @@ section {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+/* Estilos para la foto de perfil */
+.foto-perfil {
+    width: 150px;
+    height: auto;
+    border-radius: 50%; /* Hace que la foto sea circular */
+    display: block;
+    margin: 10px auto; /* Centra la imagen horizontalmente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para que se vea mejor */
+}
 
 /* Flexbox layout para la sección de habilidades */
 #habilidades ul {
